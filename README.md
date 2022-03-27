@@ -21,13 +21,13 @@ This program demonstrates using Machine Learning Algorithms to predict the buy /
 
 ## Analysis Report
 
-## Tuning the Algo by changing te training dataset preiond
+## Tuning the Algo by changing the training dataset period
 
 The training window was increased to 12 months, 24 months, 36 months and 48 months.
 The classification report was run after each parameter change and recorded below. The performance graphs are saved in png files and also recorded. The names of the png files are also listed below.
 
 Across all the time window changes, the accuracy is best with 24 months. However, there is not much difference in accuracy across other time windows. They all hover around 55% accuracy
-All the models perform well for predicting or signalling 'buy'. However, none of the parameters help with predicting or signalling 'Sell'. Once again, 24 months trainng window shows the best result with recall score of 1 and f1-score of 0.72 for predicting 'Buy' signal.
+All the models perform well for predicting or signalling 'buy'. However, none of the parameters help with predicting or signaling 'Sell'. Once again, 24 months trainng window shows the best result with recall score of 1 and f1-score of 0.72 for predicting 'Buy' signal.
 
 Third point of comparing the strategy results with actual results. 
 Based on the cumulative returns and the graphs, setting the training set for 24 months provides the best predicting results.
@@ -161,7 +161,7 @@ Two other classifier machine learning algorithms were implemented as shown below
 1) AdaBoostClassifier algorithm
 2) DecisionTreeClassifier algorithm
 The classification reports along with original algorithm classification report are shown below.
-Based on the classification reports and cumulative return plots, one can summarize and conclude that the otehr two classifier models implemented do not enhance the predicatability for either 'Buy' or 'Sell signal.
+Based on the classification reports and cumulative return plots, one can summarize and conclude that the other two classifier models implemented do not enhance the predictability for either 'Buy' or 'Sell signal.
 
 
 
